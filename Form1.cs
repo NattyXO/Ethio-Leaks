@@ -16,6 +16,7 @@ namespace Login_Template
         public Form1()
         {
             InitializeComponent();
+            txtPassword.UseSystemPasswordChar = true;
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -27,5 +28,20 @@ namespace Login_Template
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void picShowPassword_Click(object sender, EventArgs e)
+        {
+            txtPassword.UseSystemPasswordChar = false;
+            picShowPassword.Visible = false;
+            picHiddenPassword.Visible = true;
+        }
+
+        private void picHiddenPassword_Click(object sender, EventArgs e)
+        {
+            txtPassword.UseSystemPasswordChar = true;
+            picHiddenPassword.Visible = false;
+            picShowPassword.Visible = true;
+        }
+
     }
 }

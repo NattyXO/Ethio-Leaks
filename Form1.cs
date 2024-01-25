@@ -43,5 +43,14 @@ namespace Login_Template
             picShowPassword.Visible = true;
         }
 
+        private void picClose_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
+
+        private void picMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

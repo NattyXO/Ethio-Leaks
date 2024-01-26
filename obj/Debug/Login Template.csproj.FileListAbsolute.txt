@@ -74,3 +74,4 @@ C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.csproj.Cor
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.csproj.CopyComplete
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.exe
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.pdb
+C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Register.resources

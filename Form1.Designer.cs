@@ -58,7 +58,7 @@ namespace Login_Template
             this.btnLogin = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.lblForgetPassword = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.txtPassword = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtUsername = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -158,7 +158,7 @@ namespace Login_Template
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.bunifuLabel4);
+            this.panel1.Controls.Add(this.lblForgetPassword);
             this.panel1.Controls.Add(this.bunifuLabel3);
             this.panel1.Controls.Add(this.txtPassword);
             this.panel1.Controls.Add(this.txtUsername);
@@ -389,20 +389,22 @@ namespace Login_Template
             this.panel2.Size = new System.Drawing.Size(260, 2);
             this.panel2.TabIndex = 6;
             // 
-            // bunifuLabel4
+            // lblForgetPassword
             // 
-            this.bunifuLabel4.AllowParentOverrides = false;
-            this.bunifuLabel4.AutoEllipsis = false;
-            this.bunifuLabel4.CursorType = null;
-            this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel4.Location = new System.Drawing.Point(211, 262);
-            this.bunifuLabel4.Name = "bunifuLabel4";
-            this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(92, 13);
-            this.bunifuLabel4.TabIndex = 5;
-            this.bunifuLabel4.Text = "Forget password?";
-            this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lblForgetPassword.AllowParentOverrides = false;
+            this.lblForgetPassword.AutoEllipsis = false;
+            this.lblForgetPassword.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblForgetPassword.CursorType = System.Windows.Forms.Cursors.Hand;
+            this.lblForgetPassword.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblForgetPassword.Location = new System.Drawing.Point(211, 262);
+            this.lblForgetPassword.Name = "lblForgetPassword";
+            this.lblForgetPassword.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblForgetPassword.Size = new System.Drawing.Size(92, 13);
+            this.lblForgetPassword.TabIndex = 5;
+            this.lblForgetPassword.Text = "Forget password?";
+            this.lblForgetPassword.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lblForgetPassword.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lblForgetPassword.Click += new System.EventHandler(this.lblForgetPassword_Click);
             // 
             // bunifuLabel3
             // 
@@ -645,7 +647,7 @@ namespace Login_Template
         private Bunifu.Framework.UI.BunifuThinButton2 btnLogin;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
+        private Bunifu.UI.WinForms.BunifuLabel lblForgetPassword;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
         private Bunifu.UI.WinForms.BunifuTextBox txtPassword;
         private Bunifu.UI.WinForms.BunifuTextBox txtUsername;

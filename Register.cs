@@ -63,5 +63,10 @@ namespace Login_Template
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void bunifuGradientPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

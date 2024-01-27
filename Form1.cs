@@ -59,5 +59,12 @@ namespace Login_Template
             ss.Show();
             this.Hide();
         }
+
+        private void lblForgetPassword_Click(object sender, EventArgs e)
+        {
+            ForgetPassword ss = new ForgetPassword();
+            this.Hide();
+            ss.ShowDialog();
+        }
     }
 }

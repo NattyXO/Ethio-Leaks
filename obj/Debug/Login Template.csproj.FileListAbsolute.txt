@@ -65,7 +65,6 @@ C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.Bunifu
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
-C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.csproj.AssemblyReference.cache
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Form1.resources
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Properties.Resources.resources
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.csproj.GenerateResource.cache
@@ -76,3 +75,4 @@ C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.exe
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.pdb
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Register.resources
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.ForgetPassword.resources
+C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Home.resources

@@ -66,5 +66,12 @@ namespace Login_Template
             this.Hide();
             ss.ShowDialog();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Home ss = new Home();
+            ss.Show();
+            this.Hide();
+        }
     }
 }

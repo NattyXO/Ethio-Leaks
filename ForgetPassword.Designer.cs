@@ -37,30 +37,31 @@ namespace Login_Template
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuGradientPanel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.picMinimizeFP = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.picMinimize = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.picCloseFP = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.picClose = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.txtEmail = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.btnSendALink = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.lblBacktoLogin = new Bunifu.UI.WinForms.BunifuLabel();
             this.btnSendALinkMask = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.picMinimizeFP = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.picCloseFP = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.btnSendALink = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.txtEmail = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.lblBacktoLogin = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picMinimizeFP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinimize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCloseFP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picClose)).BeginInit();
             this.bunifuPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMinimizeFP)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCloseFP)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuLabel1
             // 
             this.bunifuLabel1.AllowParentOverrides = false;
             this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.Black;
@@ -97,6 +98,24 @@ namespace Login_Template
             this.bunifuGradientPanel1.Click += new System.EventHandler(this.bunifuGradientPanel1_Click);
             this.bunifuGradientPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bunifuGradientPanel1_MouseDown);
             // 
+            // picMinimizeFP
+            // 
+            this.picMinimizeFP.AllowFocused = false;
+            this.picMinimizeFP.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.picMinimizeFP.AutoSizeHeight = true;
+            this.picMinimizeFP.BorderRadius = 0;
+            this.picMinimizeFP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMinimizeFP.Image = ((System.Drawing.Image)(resources.GetObject("picMinimizeFP.Image")));
+            this.picMinimizeFP.IsCircle = true;
+            this.picMinimizeFP.Location = new System.Drawing.Point(335, 4);
+            this.picMinimizeFP.Name = "picMinimizeFP";
+            this.picMinimizeFP.Size = new System.Drawing.Size(20, 20);
+            this.picMinimizeFP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picMinimizeFP.TabIndex = 27;
+            this.picMinimizeFP.TabStop = false;
+            this.picMinimizeFP.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
+            this.picMinimizeFP.Click += new System.EventHandler(this.picMinimizeFP_Click);
+            // 
             // picMinimize
             // 
             this.picMinimize.AllowFocused = false;
@@ -113,6 +132,24 @@ namespace Login_Template
             this.picMinimize.TabIndex = 24;
             this.picMinimize.TabStop = false;
             this.picMinimize.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
+            // 
+            // picCloseFP
+            // 
+            this.picCloseFP.AllowFocused = false;
+            this.picCloseFP.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.picCloseFP.AutoSizeHeight = true;
+            this.picCloseFP.BorderRadius = 0;
+            this.picCloseFP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picCloseFP.Image = ((System.Drawing.Image)(resources.GetObject("picCloseFP.Image")));
+            this.picCloseFP.IsCircle = true;
+            this.picCloseFP.Location = new System.Drawing.Point(377, 4);
+            this.picCloseFP.Name = "picCloseFP";
+            this.picCloseFP.Size = new System.Drawing.Size(20, 20);
+            this.picCloseFP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picCloseFP.TabIndex = 26;
+            this.picCloseFP.TabStop = false;
+            this.picCloseFP.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
+            this.picCloseFP.Click += new System.EventHandler(this.picCloseFP_Click);
             // 
             // picClose
             // 
@@ -152,20 +189,76 @@ namespace Login_Template
             this.bunifuPanel1.Size = new System.Drawing.Size(361, 259);
             this.bunifuPanel1.TabIndex = 25;
             // 
-            // bunifuLabel2
+            // lblBacktoLogin
             // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel2.Location = new System.Drawing.Point(30, 61);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(301, 34);
-            this.bunifuLabel2.TabIndex = 1;
-            this.bunifuLabel2.Text = "Enter the email you registered with and we\'ll send a\r\nlink to reset the password";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lblBacktoLogin.AllowParentOverrides = false;
+            this.lblBacktoLogin.AutoEllipsis = false;
+            this.lblBacktoLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblBacktoLogin.CursorType = System.Windows.Forms.Cursors.Hand;
+            this.lblBacktoLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBacktoLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lblBacktoLogin.Location = new System.Drawing.Point(146, 233);
+            this.lblBacktoLogin.Name = "lblBacktoLogin";
+            this.lblBacktoLogin.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblBacktoLogin.Size = new System.Drawing.Size(69, 15);
+            this.lblBacktoLogin.TabIndex = 5;
+            this.lblBacktoLogin.Text = "Back to login";
+            this.lblBacktoLogin.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lblBacktoLogin.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lblBacktoLogin.Click += new System.EventHandler(this.lblBacktoLogin_Click);
+            // 
+            // btnSendALinkMask
+            // 
+            this.btnSendALinkMask.ActiveBorderThickness = 1;
+            this.btnSendALinkMask.ActiveCornerRadius = 3;
+            this.btnSendALinkMask.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnSendALinkMask.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(174)))), ((int)(((byte)(174)))));
+            this.btnSendALinkMask.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnSendALinkMask.AutoSize = true;
+            this.btnSendALinkMask.BackColor = System.Drawing.Color.Transparent;
+            this.btnSendALinkMask.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSendALinkMask.BackgroundImage")));
+            this.btnSendALinkMask.ButtonText = "Send a link";
+            this.btnSendALinkMask.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSendALinkMask.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSendALinkMask.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btnSendALinkMask.IdleBorderThickness = 1;
+            this.btnSendALinkMask.IdleCornerRadius = 3;
+            this.btnSendALinkMask.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnSendALinkMask.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(174)))), ((int)(((byte)(174)))));
+            this.btnSendALinkMask.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnSendALinkMask.Location = new System.Drawing.Point(30, 180);
+            this.btnSendALinkMask.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSendALinkMask.Name = "btnSendALinkMask";
+            this.btnSendALinkMask.Size = new System.Drawing.Size(301, 46);
+            this.btnSendALinkMask.TabIndex = 4;
+            this.btnSendALinkMask.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnSendALink
+            // 
+            this.btnSendALink.ActiveBorderThickness = 1;
+            this.btnSendALink.ActiveCornerRadius = 3;
+            this.btnSendALink.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnSendALink.ActiveForecolor = System.Drawing.Color.White;
+            this.btnSendALink.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnSendALink.AutoSize = true;
+            this.btnSendALink.BackColor = System.Drawing.Color.Transparent;
+            this.btnSendALink.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSendALink.BackgroundImage")));
+            this.btnSendALink.ButtonText = "Send a link";
+            this.btnSendALink.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSendALink.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSendALink.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btnSendALink.IdleBorderThickness = 1;
+            this.btnSendALink.IdleCornerRadius = 3;
+            this.btnSendALink.IdleFillColor = System.Drawing.Color.Black;
+            this.btnSendALink.IdleForecolor = System.Drawing.Color.White;
+            this.btnSendALink.IdleLineColor = System.Drawing.Color.Black;
+            this.btnSendALink.Location = new System.Drawing.Point(30, 180);
+            this.btnSendALink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSendALink.Name = "btnSendALink";
+            this.btnSendALink.Size = new System.Drawing.Size(301, 46);
+            this.btnSendALink.TabIndex = 3;
+            this.btnSendALink.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSendALink.Click += new System.EventHandler(this.btnSendALink_Click);
             // 
             // txtEmail
             // 
@@ -243,94 +336,21 @@ namespace Login_Template
             this.txtEmail.WordWrap = true;
             this.txtEmail.TextChange += new System.EventHandler(this.txtEmail_TextChange);
             // 
-            // btnSendALink
+            // bunifuLabel2
             // 
-            this.btnSendALink.ActiveBorderThickness = 1;
-            this.btnSendALink.ActiveCornerRadius = 3;
-            this.btnSendALink.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.btnSendALink.ActiveForecolor = System.Drawing.Color.White;
-            this.btnSendALink.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.btnSendALink.AutoSize = true;
-            this.btnSendALink.BackColor = System.Drawing.Color.Transparent;
-            this.btnSendALink.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSendALink.BackgroundImage")));
-            this.btnSendALink.ButtonText = "Send a link";
-            this.btnSendALink.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSendALink.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSendALink.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btnSendALink.IdleBorderThickness = 1;
-            this.btnSendALink.IdleCornerRadius = 3;
-            this.btnSendALink.IdleFillColor = System.Drawing.Color.Black;
-            this.btnSendALink.IdleForecolor = System.Drawing.Color.White;
-            this.btnSendALink.IdleLineColor = System.Drawing.Color.Black;
-            this.btnSendALink.Location = new System.Drawing.Point(30, 180);
-            this.btnSendALink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnSendALink.Name = "btnSendALink";
-            this.btnSendALink.Size = new System.Drawing.Size(301, 46);
-            this.btnSendALink.TabIndex = 3;
-            this.btnSendALink.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSendALink.Click += new System.EventHandler(this.btnSendALink_Click);
-            // 
-            // btnSendALinkMask
-            // 
-            this.btnSendALinkMask.ActiveBorderThickness = 1;
-            this.btnSendALinkMask.ActiveCornerRadius = 3;
-            this.btnSendALinkMask.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnSendALinkMask.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(174)))), ((int)(((byte)(174)))));
-            this.btnSendALinkMask.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnSendALinkMask.AutoSize = true;
-            this.btnSendALinkMask.BackColor = System.Drawing.Color.Transparent;
-            this.btnSendALinkMask.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSendALinkMask.BackgroundImage")));
-            this.btnSendALinkMask.ButtonText = "Send a link";
-            this.btnSendALinkMask.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSendALinkMask.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSendALinkMask.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btnSendALinkMask.IdleBorderThickness = 1;
-            this.btnSendALinkMask.IdleCornerRadius = 3;
-            this.btnSendALinkMask.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnSendALinkMask.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(174)))), ((int)(((byte)(174)))));
-            this.btnSendALinkMask.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnSendALinkMask.Location = new System.Drawing.Point(30, 183);
-            this.btnSendALinkMask.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnSendALinkMask.Name = "btnSendALinkMask";
-            this.btnSendALinkMask.Size = new System.Drawing.Size(301, 46);
-            this.btnSendALinkMask.TabIndex = 4;
-            this.btnSendALinkMask.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // picMinimizeFP
-            // 
-            this.picMinimizeFP.AllowFocused = false;
-            this.picMinimizeFP.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.picMinimizeFP.AutoSizeHeight = true;
-            this.picMinimizeFP.BorderRadius = 0;
-            this.picMinimizeFP.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picMinimizeFP.Image = ((System.Drawing.Image)(resources.GetObject("picMinimizeFP.Image")));
-            this.picMinimizeFP.IsCircle = true;
-            this.picMinimizeFP.Location = new System.Drawing.Point(335, 4);
-            this.picMinimizeFP.Name = "picMinimizeFP";
-            this.picMinimizeFP.Size = new System.Drawing.Size(20, 20);
-            this.picMinimizeFP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picMinimizeFP.TabIndex = 27;
-            this.picMinimizeFP.TabStop = false;
-            this.picMinimizeFP.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
-            this.picMinimizeFP.Click += new System.EventHandler(this.picMinimizeFP_Click);
-            // 
-            // picCloseFP
-            // 
-            this.picCloseFP.AllowFocused = false;
-            this.picCloseFP.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.picCloseFP.AutoSizeHeight = true;
-            this.picCloseFP.BorderRadius = 0;
-            this.picCloseFP.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picCloseFP.Image = ((System.Drawing.Image)(resources.GetObject("picCloseFP.Image")));
-            this.picCloseFP.IsCircle = true;
-            this.picCloseFP.Location = new System.Drawing.Point(377, 4);
-            this.picCloseFP.Name = "picCloseFP";
-            this.picCloseFP.Size = new System.Drawing.Size(20, 20);
-            this.picCloseFP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picCloseFP.TabIndex = 26;
-            this.picCloseFP.TabStop = false;
-            this.picCloseFP.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
-            this.picCloseFP.Click += new System.EventHandler(this.picCloseFP_Click);
+            this.bunifuLabel2.AllowParentOverrides = false;
+            this.bunifuLabel2.AutoEllipsis = false;
+            this.bunifuLabel2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel2.Location = new System.Drawing.Point(30, 61);
+            this.bunifuLabel2.Name = "bunifuLabel2";
+            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel2.Size = new System.Drawing.Size(301, 34);
+            this.bunifuLabel2.TabIndex = 1;
+            this.bunifuLabel2.Text = "Enter the email you registered with and we\'ll send a\r\nlink to reset the password";
+            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // bunifuElipse1
             // 
@@ -341,24 +361,6 @@ namespace Login_Template
             // 
             this.bunifuElipse2.ElipseRadius = 20;
             this.bunifuElipse2.TargetControl = this.bunifuPanel1;
-            // 
-            // lblBacktoLogin
-            // 
-            this.lblBacktoLogin.AllowParentOverrides = false;
-            this.lblBacktoLogin.AutoEllipsis = false;
-            this.lblBacktoLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblBacktoLogin.CursorType = System.Windows.Forms.Cursors.Hand;
-            this.lblBacktoLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBacktoLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lblBacktoLogin.Location = new System.Drawing.Point(146, 233);
-            this.lblBacktoLogin.Name = "lblBacktoLogin";
-            this.lblBacktoLogin.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblBacktoLogin.Size = new System.Drawing.Size(69, 15);
-            this.lblBacktoLogin.TabIndex = 5;
-            this.lblBacktoLogin.Text = "Back to login";
-            this.lblBacktoLogin.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lblBacktoLogin.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            this.lblBacktoLogin.Click += new System.EventHandler(this.lblBacktoLogin_Click);
             // 
             // ForgetPassword
             // 
@@ -371,12 +373,12 @@ namespace Login_Template
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ForgetPassword";
             this.bunifuGradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picMinimizeFP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinimize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCloseFP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picClose)).EndInit();
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMinimizeFP)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCloseFP)).EndInit();
             this.ResumeLayout(false);
 
         }

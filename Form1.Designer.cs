@@ -372,6 +372,7 @@ namespace Login_Template
             this.btnLogin.Size = new System.Drawing.Size(260, 49);
             this.btnLogin.TabIndex = 9;
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // panel3
             // 

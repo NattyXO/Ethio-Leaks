@@ -29,17 +29,18 @@ namespace Login_Template
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges37 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges38 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges39 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges40 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges36 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges35 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges34 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges33 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges32 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges31 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblTop = new System.Windows.Forms.Label();
             this.btnEpandandClose = new System.Windows.Forms.PictureBox();
@@ -58,16 +59,30 @@ namespace Login_Template
             this.btnRequest = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnChat = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnAbout = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnClose = new System.Windows.Forms.PictureBox();
+            this.btnRestoreDown = new System.Windows.Forms.PictureBox();
+            this.btnMinimize = new System.Windows.Forms.PictureBox();
+            this.btnMaximize = new System.Windows.Forms.PictureBox();
+            this.homeController1 = new Login_Template.homeController();
+            this.collectionController1 = new Login_Template.collectionController();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnEpandandClose)).BeginInit();
             this.sideBar.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestoreDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximize)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(86)))), ((int)(((byte)(182)))));
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.lblTop);
             this.panel1.Controls.Add(this.btnEpandandClose);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -140,11 +155,11 @@ namespace Login_Template
             this.btnCategories.ColorContrastOnClick = 45;
             this.btnCategories.ColorContrastOnHover = 45;
             this.btnCategories.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges37.BottomLeft = true;
-            borderEdges37.BottomRight = true;
-            borderEdges37.TopLeft = true;
-            borderEdges37.TopRight = true;
-            this.btnCategories.CustomizableEdges = borderEdges37;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.btnCategories.CustomizableEdges = borderEdges7;
             this.btnCategories.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnCategories.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnCategories.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -232,11 +247,11 @@ namespace Login_Template
             this.btnModels.ColorContrastOnClick = 45;
             this.btnModels.ColorContrastOnHover = 45;
             this.btnModels.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges38.BottomLeft = true;
-            borderEdges38.BottomRight = true;
-            borderEdges38.TopLeft = true;
-            borderEdges38.TopRight = true;
-            this.btnModels.CustomizableEdges = borderEdges38;
+            borderEdges8.BottomLeft = true;
+            borderEdges8.BottomRight = true;
+            borderEdges8.TopLeft = true;
+            borderEdges8.TopRight = true;
+            this.btnModels.CustomizableEdges = borderEdges8;
             this.btnModels.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnModels.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnModels.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -324,11 +339,11 @@ namespace Login_Template
             this.btnCollection.ColorContrastOnClick = 45;
             this.btnCollection.ColorContrastOnHover = 45;
             this.btnCollection.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges39.BottomLeft = true;
-            borderEdges39.BottomRight = true;
-            borderEdges39.TopLeft = true;
-            borderEdges39.TopRight = true;
-            this.btnCollection.CustomizableEdges = borderEdges39;
+            borderEdges9.BottomLeft = true;
+            borderEdges9.BottomRight = true;
+            borderEdges9.TopLeft = true;
+            borderEdges9.TopRight = true;
+            this.btnCollection.CustomizableEdges = borderEdges9;
             this.btnCollection.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnCollection.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnCollection.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -416,11 +431,11 @@ namespace Login_Template
             this.btnHome.ColorContrastOnClick = 45;
             this.btnHome.ColorContrastOnHover = 45;
             this.btnHome.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges40.BottomLeft = true;
-            borderEdges40.BottomRight = true;
-            borderEdges40.TopLeft = true;
-            borderEdges40.TopRight = true;
-            this.btnHome.CustomizableEdges = borderEdges40;
+            borderEdges10.BottomLeft = true;
+            borderEdges10.BottomRight = true;
+            borderEdges10.TopLeft = true;
+            borderEdges10.TopRight = true;
+            this.btnHome.CustomizableEdges = borderEdges10;
             this.btnHome.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnHome.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnHome.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -552,11 +567,11 @@ namespace Login_Template
             this.btnPhotos.ColorContrastOnClick = 45;
             this.btnPhotos.ColorContrastOnHover = 45;
             this.btnPhotos.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges36.BottomLeft = true;
-            borderEdges36.BottomRight = true;
-            borderEdges36.TopLeft = true;
-            borderEdges36.TopRight = true;
-            this.btnPhotos.CustomizableEdges = borderEdges36;
+            borderEdges6.BottomLeft = true;
+            borderEdges6.BottomRight = true;
+            borderEdges6.TopLeft = true;
+            borderEdges6.TopRight = true;
+            this.btnPhotos.CustomizableEdges = borderEdges6;
             this.btnPhotos.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnPhotos.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnPhotos.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -644,11 +659,11 @@ namespace Login_Template
             this.btnVIP.ColorContrastOnClick = 45;
             this.btnVIP.ColorContrastOnHover = 45;
             this.btnVIP.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges35.BottomLeft = true;
-            borderEdges35.BottomRight = true;
-            borderEdges35.TopLeft = true;
-            borderEdges35.TopRight = true;
-            this.btnVIP.CustomizableEdges = borderEdges35;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.btnVIP.CustomizableEdges = borderEdges5;
             this.btnVIP.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnVIP.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnVIP.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -736,11 +751,11 @@ namespace Login_Template
             this.btnPlaylist.ColorContrastOnClick = 45;
             this.btnPlaylist.ColorContrastOnHover = 45;
             this.btnPlaylist.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges34.BottomLeft = true;
-            borderEdges34.BottomRight = true;
-            borderEdges34.TopLeft = true;
-            borderEdges34.TopRight = true;
-            this.btnPlaylist.CustomizableEdges = borderEdges34;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btnPlaylist.CustomizableEdges = borderEdges4;
             this.btnPlaylist.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnPlaylist.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnPlaylist.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -828,11 +843,11 @@ namespace Login_Template
             this.btnRequest.ColorContrastOnClick = 45;
             this.btnRequest.ColorContrastOnHover = 45;
             this.btnRequest.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges33.BottomLeft = true;
-            borderEdges33.BottomRight = true;
-            borderEdges33.TopLeft = true;
-            borderEdges33.TopRight = true;
-            this.btnRequest.CustomizableEdges = borderEdges33;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.btnRequest.CustomizableEdges = borderEdges3;
             this.btnRequest.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnRequest.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnRequest.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -920,11 +935,11 @@ namespace Login_Template
             this.btnChat.ColorContrastOnClick = 45;
             this.btnChat.ColorContrastOnHover = 45;
             this.btnChat.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges32.BottomLeft = true;
-            borderEdges32.BottomRight = true;
-            borderEdges32.TopLeft = true;
-            borderEdges32.TopRight = true;
-            this.btnChat.CustomizableEdges = borderEdges32;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btnChat.CustomizableEdges = borderEdges2;
             this.btnChat.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnChat.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnChat.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -1012,11 +1027,11 @@ namespace Login_Template
             this.btnAbout.ColorContrastOnClick = 45;
             this.btnAbout.ColorContrastOnHover = 45;
             this.btnAbout.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges31.BottomLeft = true;
-            borderEdges31.BottomRight = true;
-            borderEdges31.TopLeft = true;
-            borderEdges31.TopRight = true;
-            this.btnAbout.CustomizableEdges = borderEdges31;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.btnAbout.CustomizableEdges = borderEdges1;
             this.btnAbout.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnAbout.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAbout.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -1084,19 +1099,101 @@ namespace Login_Template
             this.btnAbout.UseDefaultRadiusAndThickness = true;
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 10;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnMaximize);
+            this.panel2.Controls.Add(this.btnMinimize);
+            this.panel2.Controls.Add(this.btnRestoreDown);
+            this.panel2.Controls.Add(this.btnClose);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(551, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(198, 43);
+            this.panel2.TabIndex = 4;
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
+            this.btnClose.Location = new System.Drawing.Point(170, 11);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(17, 17);
+            this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnClose.TabIndex = 5;
+            this.btnClose.TabStop = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnRestoreDown
+            // 
+            this.btnRestoreDown.BackColor = System.Drawing.Color.Transparent;
+            this.btnRestoreDown.Image = ((System.Drawing.Image)(resources.GetObject("btnRestoreDown.Image")));
+            this.btnRestoreDown.Location = new System.Drawing.Point(130, 11);
+            this.btnRestoreDown.Name = "btnRestoreDown";
+            this.btnRestoreDown.Size = new System.Drawing.Size(17, 17);
+            this.btnRestoreDown.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnRestoreDown.TabIndex = 6;
+            this.btnRestoreDown.TabStop = false;
+            this.btnRestoreDown.Click += new System.EventHandler(this.btnRestoreDown_Click);
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimize.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimize.Image")));
+            this.btnMinimize.Location = new System.Drawing.Point(90, 11);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(17, 17);
+            this.btnMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMinimize.TabIndex = 7;
+            this.btnMinimize.TabStop = false;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // btnMaximize
+            // 
+            this.btnMaximize.BackColor = System.Drawing.Color.Transparent;
+            this.btnMaximize.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximize.Image")));
+            this.btnMaximize.Location = new System.Drawing.Point(130, 11);
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.Size = new System.Drawing.Size(17, 17);
+            this.btnMaximize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMaximize.TabIndex = 8;
+            this.btnMaximize.TabStop = false;
+            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
+            // 
+            // homeController1
+            // 
+            this.homeController1.Location = new System.Drawing.Point(162, 114);
+            this.homeController1.Name = "homeController1";
+            this.homeController1.Size = new System.Drawing.Size(587, 507);
+            this.homeController1.TabIndex = 2;
+            // 
+            // collectionController1
+            // 
+            this.collectionController1.Location = new System.Drawing.Point(162, 43);
+            this.collectionController1.Name = "collectionController1";
+            this.collectionController1.Size = new System.Drawing.Size(587, 507);
+            this.collectionController1.TabIndex = 3;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(749, 550);
+            this.ControlBox = false;
+            this.Controls.Add(this.homeController1);
             this.Controls.Add(this.sideBar);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.collectionController1);
             this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Home";
             this.Load += new System.EventHandler(this.Home_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -1105,6 +1202,11 @@ namespace Login_Template
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestoreDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximize)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1129,5 +1231,13 @@ namespace Login_Template
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnPlaylist;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnVIP;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnPhotos;
+        private homeController homeController1;
+        private collectionController collectionController1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox btnMaximize;
+        private System.Windows.Forms.PictureBox btnMinimize;
+        private System.Windows.Forms.PictureBox btnRestoreDown;
+        private System.Windows.Forms.PictureBox btnClose;
     }
 }

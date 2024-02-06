@@ -76,3 +76,5 @@ C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.pdb
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Register.resources
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.ForgetPassword.resources
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Home.resources
+C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.homeController.resources
+C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.collectionController.resources

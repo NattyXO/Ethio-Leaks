@@ -16,7 +16,15 @@ namespace Login_Template
         public Home()
         {
             InitializeComponent();
+            ss1.Hide();
+            ss.Show();
+            btnRestoreDown.Visible = false;
         }
+        homeController ss = new homeController();
+
+        collectionController ss1 = new collectionController();
+
+
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
@@ -77,15 +85,35 @@ namespace Login_Template
         {
 
         }
-
         private void btnHome_Click(object sender, EventArgs e)
         {
-            lblTop.Text = "Home";
+            try
+            {
+                lblTop.Text = "Home";
+                ss.Show();
+                ss1.Hide();
+                
+            }
+            catch (Exception ex)
+            {
+                // Handle other exceptions
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
-
         private void btnCollection_Click(object sender, EventArgs e)
         {
-            lblTop.Text = "Collection";
+            
+            try
+            {
+                lblTop.Text = "Collection";
+                ss1.Show();
+                ss.Hide();
+            }
+            catch (Exception ex)
+            {
+                // Handle other exceptions
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnModels_Click(object sender, EventArgs e)
@@ -126,6 +154,31 @@ namespace Login_Template
         private void btnAbout_Click(object sender, EventArgs e)
         {
             lblTop.Text = "About";
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
+
+        private void btnRestoreDown_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnRestoreDown.Visible = false;
+            btnMaximize.Visible = true;
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMaximize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+
+            btnRestoreDown.Visible = true;
+            btnMaximize.Visible = false;
         }
     }
 }

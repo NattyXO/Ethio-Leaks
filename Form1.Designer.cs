@@ -103,6 +103,7 @@ namespace Login_Template
             this.bunifuGradientPanel1.Quality = 10;
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(457, 663);
             this.bunifuGradientPanel1.TabIndex = 0;
+            this.bunifuGradientPanel1.Click += new System.EventHandler(this.bunifuGradientPanel1_Click);
             this.bunifuGradientPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bunifuGradientPanel1_MouseDown);
             // 
             // picMinimize

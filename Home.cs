@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Login_Template
@@ -16,14 +9,9 @@ namespace Login_Template
         public Home()
         {
             InitializeComponent();
-            ss1.Hide();
-            ss.Show();
             btnRestoreDown.Visible = false;
+            homeController1.BringToFront();
         }
-        homeController ss = new homeController();
-
-        collectionController ss1 = new collectionController();
-
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -34,7 +22,6 @@ namespace Login_Template
         public static extern bool ReleaseCapture();
         private void Home_Load(object sender, EventArgs e)
         {
-            
 
         }
 
@@ -78,7 +65,7 @@ namespace Login_Template
                 btnChat.Text = "Chat";
                 btnAbout.Text = "About";
             }
-            
+
         }
 
         private void sideBar_Paint(object sender, PaintEventArgs e)
@@ -90,9 +77,10 @@ namespace Login_Template
             try
             {
                 lblTop.Text = "Home";
-                ss.Show();
-                ss1.Hide();
-                
+                collectionController1.SendToBack();
+                homeController1.BringToFront();
+
+
             }
             catch (Exception ex)
             {
@@ -102,12 +90,13 @@ namespace Login_Template
         }
         private void btnCollection_Click(object sender, EventArgs e)
         {
-            
+
             try
             {
                 lblTop.Text = "Collection";
-                ss1.Show();
-                ss.Hide();
+
+                collectionController1.BringToFront();
+                homeController1.SendToBack();
             }
             catch (Exception ex)
             {
@@ -179,6 +168,14 @@ namespace Login_Template
 
             btnRestoreDown.Visible = true;
             btnMaximize.Visible = false;
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Form1 ssl = new Form1();
+            ssl.Show();
+            this.Hide();
+
         }
     }
 }

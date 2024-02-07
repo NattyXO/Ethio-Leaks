@@ -34,6 +34,7 @@ C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.Bunifu
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Guna.UI.dll
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
@@ -65,16 +66,16 @@ C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.Bunifu
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
 C:\Users\NattyXO\source\repos\Login Template\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.collectionController.resources
+C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.ForgetPassword.resources
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Form1.resources
+C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Home.resources
+C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.homeController.resources
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Properties.Resources.resources
+C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Register.resources
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.csproj.GenerateResource.cache
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.exe.licenses
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.csproj.CoreCompileInputs.cache
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.csproj.CopyComplete
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.exe
 C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login Template.pdb
-C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Register.resources
-C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.ForgetPassword.resources
-C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.Home.resources
-C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.homeController.resources
-C:\Users\NattyXO\source\repos\Login Template\obj\Debug\Login_Template.collectionController.resources

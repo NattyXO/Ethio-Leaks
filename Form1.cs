@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Login_Template
@@ -17,6 +10,8 @@ namespace Login_Template
         {
             InitializeComponent();
             txtPassword.UseSystemPasswordChar = true;
+
+
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -72,6 +67,11 @@ namespace Login_Template
             Home ss = new Home();
             ss.Show();
             this.Hide();
+        }
+
+        private void bunifuGradientPanel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

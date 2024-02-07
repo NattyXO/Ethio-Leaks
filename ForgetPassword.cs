@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Login_Template
@@ -32,7 +25,7 @@ namespace Login_Template
 
         private void txtEmail_TextChange(object sender, EventArgs e)
         {
-            if(string.IsNullOrEmpty(txtEmail.Text))
+            if (string.IsNullOrEmpty(txtEmail.Text))
             {
                 btnSendALink.Visible = false;
                 btnSendALinkMask.Visible = true;
@@ -42,7 +35,7 @@ namespace Login_Template
                 btnSendALink.Visible = true;
                 btnSendALinkMask.Visible = false;
             }
-            
+
         }
 
         private void btnSendALink_Click(object sender, EventArgs e)
